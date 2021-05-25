@@ -69,7 +69,7 @@
 # TODO
 - ResNet
 - Vae
-- latent input
+- random z input
 - tune hyperparameter 
 - test realism using [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
 - test diversity using [lpips](https://github.com/richzhang/PerceptualSimilarity)
