@@ -1,7 +1,7 @@
 # BicycleAttGAN
 - Combine BicycleGAN and AttGAN
 - Way to translate input image with disentangled latent
-- Most code brought from AttGAN and EigenGAN
+- Most code brought from [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow) and [EigenGAN](https://github.com/LynnHo/EigenGAN-Tensorflow)     
 
 
 # Result   
