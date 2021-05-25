@@ -3,21 +3,15 @@
 - Way to translate input image with disentangled latent
 - Most code brought from AttGAN and EigenGAN
 
-# Model structure
-
-
-# TODO
-- Resnet
-- Vae
-- latent input
-- test using 
-- 
 
 # Result   
 ![result](doc/screenshot_1.png)    
 ![result](doc/screenshot_2.png)     
 ![result](doc/screenshot_3.png)    
 ![result](doc/screenshot_4.png)    
+
+# Model structure
+
 
 
 # Run    
@@ -72,6 +66,13 @@
             ```
 
 
+# TODO
+- Resnet
+- Vae
+- latent input
+- tune hyperparameter 
+- test using [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
+- test using [lpips](https://github.com/richzhang/PerceptualSimilarity)
 
 # Acknowledgement and References  
 - [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow)     
@@ -79,3 +80,6 @@
 - [BicycleGAN](https://github.com/junyanz/BicycleGAN)
 - [BicycleGAN-Tensorflow](https://github.com/clvrai/BicycleGAN-Tensorflow)
 - [Bidirectional-InfoGAN](https://github.com/tohinz/Bidirectional-InfoGAN)
+- [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
+- [lpips](https://github.com/richzhang/PerceptualSimilarity)
+- 
