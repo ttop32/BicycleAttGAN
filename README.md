@@ -1,13 +1,16 @@
 # BicycleAttGAN
-combine BicycleGAN and AttGAN
-
+- Combine BicycleGAN and AttGAN
+- Way to translate input image with disentangled latent
+- Most code brought from AttGAN and EigenGAN
 
 # Model structure
+
 
 # TODO
 - Resnet
 - Vae
 - latent input
+- test using 
 - 
 
 # Result   
@@ -18,7 +21,7 @@ combine BicycleGAN and AttGAN
 
 
 # Run    
-
+- bicycleAttGAN.ipynb
 
 
 ## Setup (brought from EigenGAN)
