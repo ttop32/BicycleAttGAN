@@ -21,8 +21,36 @@ combine BicycleGAN and AttGAN
 
 
 
-# Data Preparation
-- Option 1: [CelebA](http://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)-unaligned (higher quality than the aligned data, 10.2GB)
+## Setup (brought from EigenGAN)
+- Environment
+
+    - Python 3.6
+
+    - TensorFlow 1.15
+
+    - OpenCV, scikit-image, tqdm, oyaml
+
+    - *we recommend [Anaconda](https://www.anaconda.com/distribution/#download-section) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html#linux-installers), then you can create the environment with commands below*
+
+        ```console
+        conda create -n EigenGAN python=3.6
+
+        source activate EigenGAN
+
+        conda install opencv scikit-image tqdm tensorflow-gpu=1.15
+
+        conda install -c conda-forge oyaml
+        ```
+
+    - *NOTICE: if you create a new conda environment, remember to activate it before any other command*
+
+        ```console
+        source activate EigenGAN
+        ```
+
+- Data Preparation
+
+    - [CelebA](http://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)-unaligned (10.2GB, higher quality than the aligned data)
 
         - download the dataset
 
@@ -39,6 +67,23 @@ combine BicycleGAN and AttGAN
 
             python ./scripts/align.py
             ```
+
+    - [Anime](https://www.gwern.net/Crops)
+
+        - download the dataset
+
+            ```console
+            mkdir -p ./data/anime
+
+            rsync --verbose --recursive rsync://78.46.86.149:873/biggan/portraits/ ./data/anime/original_imgs
+            ```
+
+        - process the data
+
+            ```console
+            python ./scripts/remove_black_edge.py
+            ```
+
 
 
 # Acknowledgement and References  
