@@ -71,8 +71,8 @@
 - Vae
 - latent input
 - tune hyperparameter 
-- test using [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
-- test using [lpips](https://github.com/richzhang/PerceptualSimilarity)
+- test realism using [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
+- test diversity using [lpips](https://github.com/richzhang/PerceptualSimilarity)
 
 # Acknowledgement and References  
 - [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow)     
