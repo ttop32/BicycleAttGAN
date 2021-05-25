@@ -67,7 +67,7 @@
 
 
 # TODO
-- Resnet
+- ResNet
 - Vae
 - latent input
 - tune hyperparameter 
