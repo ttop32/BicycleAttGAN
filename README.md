@@ -11,7 +11,7 @@
 ![result](doc/screenshot_4.png)    
 
 first col / second col / remian col    
-ori source / ori target / output results when set value 4 to each input latent
+ori source img / ori target img / output results when set value 4 to each input latent
 
 
 
