@@ -10,7 +10,14 @@
 ![result](doc/screenshot_3.png)    
 ![result](doc/screenshot_4.png)    
 
+first col / second col / remian col
+ori source / ori target / output results when set value 4 to each input latent
+
+
+
 # Model structure
+
+
 
 
 
