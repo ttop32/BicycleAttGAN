@@ -1,5 +1,5 @@
 # BicycleAttGAN
-- Combine BicycleGAN and AttGAN
+- Combine BicycleGAN(idea of using latent classifier as style encoder) and AttGAN
 - Way to translate input image with disentangled latent
 - Most code brought from [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow) and [EigenGAN](https://github.com/LynnHo/EigenGAN-Tensorflow)     
 
