@@ -78,7 +78,7 @@ ori source img / ori target img / output results when set value 4 to each input 
 - Vae
 - random z input
 - tune hyperparameter 
-- test realism using [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
+- test quality using Fréchet Inception Distance
 - test diversity using [lpips](https://github.com/richzhang/PerceptualSimilarity)
 
 # Acknowledgement and References  
