@@ -87,6 +87,5 @@ ori source img / ori target img / output results when set value 4 to each input 
 - [BicycleGAN](https://github.com/junyanz/BicycleGAN)
 - [BicycleGAN-Tensorflow](https://github.com/clvrai/BicycleGAN-Tensorflow)
 - [Bidirectional-InfoGAN](https://github.com/tohinz/Bidirectional-InfoGAN)
-- [AMT_Real_vs_Fake](https://github.com/phillipi/AMT_Real_vs_Fake)
 - [lpips](https://github.com/richzhang/PerceptualSimilarity)
 - 
