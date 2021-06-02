@@ -4,18 +4,19 @@
 - Most code brought from [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow) and [EigenGAN](https://github.com/LynnHo/EigenGAN-Tensorflow)     
 
 
-# Result   
-![result](doc/screenshot_1.png)    
-![result](doc/screenshot_2.png)     
-![result](doc/screenshot_3.png)    
-![result](doc/screenshot_4.png)    
-
-first col / second col / remian col    
-ori source img / ori target img / output results when set value 4 to each input latent
-
-
-
 # Model structure
+![structure](doc/BicycleAttGANWithResult.png)    
+
+
+
+# Result   
+- first col / second col / remian col    
+- ori source img / ori target img / output results when set value 4 to each input latent
+![result](doc/BicycleAttGAN_result/Epoch-159_Iter-1436.jpg)    
+
+
+
+
 
 
 
@@ -88,4 +89,3 @@ ori source img / ori target img / output results when set value 4 to each input 
 - [BicycleGAN-Tensorflow](https://github.com/clvrai/BicycleGAN-Tensorflow)
 - [Bidirectional-InfoGAN](https://github.com/tohinz/Bidirectional-InfoGAN)
 - [lpips](https://github.com/richzhang/PerceptualSimilarity)
-- 
