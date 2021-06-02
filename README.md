@@ -10,6 +10,7 @@
 
 
 # Result   
+- epoch 160 trained model output (img size 128, z_dims 13)
 - first col / second col / remian col    
 - ori source img / ori target img / output results when set value 4 to each input latent
 ![result](doc/BicycleAttGAN_result/Epoch-159_Iter-1436.jpg)    
