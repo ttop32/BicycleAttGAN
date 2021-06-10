@@ -2,7 +2,7 @@
 - Combine BicycleGAN(idea of using latent classifier as style encoder) and AttGAN
 - Way to translate input image with disentangled latent input
 - Most code brought from [AttGAN](https://github.com/LynnHo/AttGAN-Tensorflow) and [EigenGAN](https://github.com/LynnHo/EigenGAN-Tensorflow)     
-
+- [edges2shoes](https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/edges2shoes.tar.gz) dataset is used
 
 # Model structure
 ![structure](doc/BicycleAttGANWithResult.png)    
