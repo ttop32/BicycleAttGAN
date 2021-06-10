@@ -70,3 +70,4 @@
 - [BicycleGAN-Tensorflow](https://github.com/clvrai/BicycleGAN-Tensorflow)
 - [Bidirectional-InfoGAN](https://github.com/tohinz/Bidirectional-InfoGAN)
 - [lpips](https://github.com/richzhang/PerceptualSimilarity)
+- [edges2shoes](https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/edges2shoes.tar.gz) 
